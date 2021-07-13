@@ -26,7 +26,7 @@ function InputContainer(props){
                            <>  
                           <li key={taskObj.id}>
                               <div style={{display:"flex" ,alignItems:"center"}}>
-                              <h4 style={{color:"#1f1d1db"}}>{taskObj.task}</h4>
+                              <h4 style={{color:"#1f1d1d87"}}>{taskObj.task}</h4>
                            
                               <button style={{ border:"none",  height:"30px",marginLeft:"20px",outline:"none",background:"transparent", fontSize:"large",border:"2px solid gainsboro"}} onClick={()=>{props.setDelete(taskObj.id)}} >Delete Task</button>
                               </div>
